@@ -3,7 +3,6 @@
 }
 
 .row-one {
-    height: 40vh;
     background-image: url("img/crypto_top.png");
     background-size: cover;
     background-position: 50% 50%;
@@ -18,8 +17,8 @@
       margin: 8px 8px;
   }
 
-  .row-two, .row-three, .row-four {
-    height: 40vh;
+  .row-one, .row-two, .row-three, .row-four {
+    height: 64vh;
   }
   .row-two-img {
       height: 100%;
