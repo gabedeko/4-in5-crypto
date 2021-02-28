@@ -1,0 +1,76 @@
+* {
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.row-one {
+    height: 40vh;
+    background-image: url("img/crypto_top.png");
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  .row-one h1 {
+    height: 70%;
+  }
+
+
+  .btn {
+      border-radius: 0;
+      margin: 8px 8px;
+  }
+
+  .row-two, .row-three, .row-four {
+    height: 40vh;
+  }
+  .row-two-img {
+      height: 100%;
+    background-image: url("img/crypto2.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  .row-two-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #EFD2CB;
+  }
+  .row-two-body, .row-three-body, .row-four-body {
+      font-size: 20px;
+  }
+
+  .row-three-left, .row-three-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F2DDA4;
+  }
+
+  .row-four {
+      background-image: url("img/crypto3.jpg");
+      background-size: cover;
+      background-position: 50% 50%;
+  }
+
+  .row-five {
+      background-color: #8AC4FF;
+      display: flex;
+      
+      
+  }
+
+  .row-four-content {
+    background-color: rgba(255, 255, 255, 0.75);
+    height: auto;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  .footer-link {
+      color: #000;
+      font-weight: 800;
+      text-decoration: underline;
+      padding: 8px;
+  }
